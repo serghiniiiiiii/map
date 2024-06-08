@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAP </title>
+    <script src="https://cdn.jsdelivr.net/npm/ol@v9.1.0/dist/ol.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v9.1.0/ol.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    
+    <div id="group">
+
+
+        <div id="coordinate-info" class="coordinate-info"></div>
+    <div id="scroll-info" class="scroll-info" style="display: block;"><button id="scroll-info1">Show Coordinate</button></div>
+    <button id="toggleButton" class="draw-button">Toggle Drawing</button>
+    <button id="removeDrawingButton" class="draw-button">Remove All</button>
+    <!-- Add search input and button -->
+    
+   
+   <button id="locate">My Location</button>
+
+<div id="search-input">
+    <input type="number" id="xCoordinateInput" placeholder="X Coordinate">
+    <input type="number" id="yCoordinateInput" placeholder="Y Coordinate">
+    <button id="showLocationButton">Show</button>
+    
+</div>
+
+    </div>
+    <div id="search-container">
+
+        <input type="text" id="searchInput" placeholder="Enter location" >
+        <button id="searchButton" onclick="search()" >Search</button>
+        <div id="destination-input">
+           
+        </div>
+        
+        
+            </div>
+    <div id="map"></div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>

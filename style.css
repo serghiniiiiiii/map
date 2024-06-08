@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#map {
+   
+    width: 100%;
+    height: 660px;
+}
+
+.coordinate-info {
+   
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+    border-radius: 10px;
+  
+}
+
+.scroll-info button {
+    
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+    border-radius: 10px;
+   
+}
+.scroll-info button:hover {
+    
+    background-color: rgba(21, 3, 3, 0.7);
+    padding: 5px;
+    color:white;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+#locate{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+    border-radius: 10px;
+   
+}
+#locate:hover{
+    background-color: rgba(21, 3, 3, 0.7);
+    padding: 5px;
+    color:white;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+#locate.clicked{
+    background-color: rgba(21, 3, 3, 0.7);
+    padding: 5px;
+    color:white;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+#scroll-info1.clicked{
+    color: white;
+    background-color: rgba(21, 3, 3, 0.7);
+}
+
+.draw-button {
+    padding: 5px;
+    z-index: 1000;
+    border-radius: 10px;
+    
+}
+
+.draw-button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgba(21, 3, 3, 0.7);
+    padding: 5px;
+    border-radius: 10px;
+}
+.draw-button.clicked{
+    color: white;
+    background-color: rgba(21, 3, 3, 0.7);
+}
+#removeDrawingButton {
+    padding: 5px;
+    z-index: 1000;
+    border-radius: 10px;
+    
+}
+
+#removeDrawingButton:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgba(21, 3, 3, 0.7);
+   border-radius: 10px;
+   padding: 5px;
+}
+
+/* Styles for search input and button */
+/* Styles for search input and button */
+#search-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 10px; /* Adjust this margin as needed */
+    z-index: 1000;
+}
+
+#searchInput {
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#searchInput:focus {
+    transform: scale(1.1);
+}
+
+#searchButton {
+    font-size: 14px;
+    border: none;
+    background-color: #59a8e4;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#searchButton:hover {
+    background-color: #02243e;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+#group {
+    width: 60%;
+    position: absolute;
+  margin: 10px 160px;
+  background-color: rgba(255, 255, 255, 0.3); 
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    padding: 20px; /* Adjust as needed */
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+/* Styles for coordinate input fields and button */
+
+#xCoordinateInput,
+#yCoordinateInput,
+#showLocationButton {
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#xCoordinateInput,
+#yCoordinateInput {
+    width: 100px; /* Keep the width consistent */
+}
+
+#showLocationButton {
+    background-color: #59a8e4;
+    color: white;
+    border: none;
+    padding: 5px 10px; /* Adjust padding as needed */
+    cursor: pointer;
+}
+
+#showLocationButton:hover {
+    background-color: #02243e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Styles for destination input fields and button */
+#destination-input {
+    margin-top: 20px;
+}
+
+#destination1Input,
+#destination2Input,
+#drawTrajectoryButton {
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#destination1Input,
+#destination2Input {
+    width: 200px; /* Adjust width as needed */
+}
+
+#drawTrajectoryButton {
+    background-color: #59a8e4;
+    color: white;
+    border: none;
+    padding: 5px 10px; /* Adjust padding as needed */
+    cursor: pointer;
+}
+
+#drawTrajectoryButton:hover {
+    background-color: #02243e;
+}
